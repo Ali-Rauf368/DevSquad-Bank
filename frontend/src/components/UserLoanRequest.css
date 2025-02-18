@@ -1,0 +1,134 @@
+/* UserLoanRequest.css */
+
+/* General container */
+.p-4 {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Form input styles */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.bg-blue-500 {
+  background-color: #007bff;
+}
+
+button.bg-blue-500:hover {
+  background-color: #0056b3;
+}
+
+button.bg-green-500 {
+  background-color: #28a745;
+}
+
+button.bg-green-500:hover {
+  background-color: #218838;
+}
+
+/* Table styling */
+.table-container {
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+tr:hover td {
+  background-color: #f1f1f1;
+}
+
+/* Input fields for User ID */
+input[type="text"] {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Textarea styling */
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* Spacing adjustments */
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+/* Additional responsiveness */
+@media (max-width: 768px) {
+  .p-4 {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  table {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,77 @@
+.admin-loan-panel {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subheader {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-view {
+  background-color: #28a745;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.btn-update {
+  background-color: #007bff;
+  color: white;
+}
+
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.loan-table th,
+.loan-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.loan-table th {
+  background-color: #f4f4f4;
+}
+
+.input,
+.textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  background-color: var(--message-bg, #28a745);
+}
+
+.message[data-error="true"] {
+  background-color: #dc3545;
+}

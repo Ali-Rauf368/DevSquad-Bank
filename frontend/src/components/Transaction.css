@@ -1,0 +1,283 @@
+/* General Layout */
+.transaction-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Navigation Styles */
+.transaction-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.transaction-nav li {
+  margin: 0;
+}
+
+.transaction-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.transaction-nav a:hover {
+  color: #0056b3;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.transaction-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 0;
+}
+
+.transaction-button:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Main Content Styles */
+main {
+  margin-bottom: 20px;
+}
+
+/* Transaction History Styles */
+.transaction-history {
+  margin-top: 20px;
+}
+
+.transaction-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-history li {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.transaction-history li p {
+  margin: 5px 0;
+}
+
+.transaction-history li strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Chat Styling */
+.chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Tabs styling */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #555;
+  background: #eaeaea;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tabs button.active {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.tabs button:hover:not(.active) {
+  background: #ddd;
+}
+
+/* Form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Chat window */
+.chat-window {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.chat-window h2 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.chat-message {
+  margin-bottom: 15px;
+}
+
+.chat-message span {
+  font-weight: bold;
+}
+
+.chat-message .self {
+  color: #007bff;
+}
+
+.chat-message .other {
+  color: #28a745;
+}
+
+/* History */
+.history {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.history h2 {
+  margin: 0 0 15px;
+  color: #333;
+}
+
+.history .chat-message {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+}
+
+.history .chat-message p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Notifications */
+.success {
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.error {
+  color: #dc3545;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}

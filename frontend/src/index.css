@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #004a77;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}

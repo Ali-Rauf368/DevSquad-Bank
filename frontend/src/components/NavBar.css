@@ -1,0 +1,118 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 75, 168, 1);
+  padding: 10px 20px;
+  
+
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.navbar-left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-left ul li {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-left ul li:hover {
+  color: #ffcc00;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language-select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #003366;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9933;
+}
+
+.banking-options {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.banking-options button {
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: 2px solid #ffcc00;
+}
+
+.banking-options button:hover {
+  background-color: #002244;
+}
+
+.user-options {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.user-options .nav-link {
+  text-decoration: none;
+}
+
+.user-options button {
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: 2px solid #ffcc00;
+}
+
+.user-options button:hover {
+  background-color: #002244;
+}
+
+@media (max-width: 768px) {
+  .navbar-left ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banking-options, .user-options {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

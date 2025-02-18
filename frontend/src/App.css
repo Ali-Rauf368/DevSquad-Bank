@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #ccc;
+  min-height: 100vh; 
+}
+
+h2 {
+  margin-top: 0;
+}
